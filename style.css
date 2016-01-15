@@ -1,7 +1,7 @@
-/* {
+* {
     border:1px solid black;
 } 
-*/
+
 body {
   background-image:url(http://theartmad.com/wp-content/uploads/Light-Grey-Gradient-Background-9.jpg);
   background-size:cover;
@@ -52,6 +52,9 @@ body {
     margin-left:-15px;
       
 }
-.education {
-    
+.contact {
+    margin-top:56px
 }
+
+    
+   
