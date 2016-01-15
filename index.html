@@ -20,18 +20,21 @@
                 nisi.
             </p>
         </div>
-        <div class="contact col-md-4">
+       <!--Had to make the top header two containers instead of 3 in order to manuver contact info. 
+       I placed contact and profile image in same Div to facilitate this.
+       Also, in order to override bootstrap I assigned "id" to the dt tags
+       otherwise txt-align:left; would not work.-->
+        <div class="picture col-md-8">
             <dl class="contact dl-horizontal">
-                <dt class="phone">phone</dt>
-                <dd>555-664-5321</dd>
-                <dt>website</dt>
-                <dd>domain.com</dd>
-                <dt>Email</dt>
-                <dd>info@domain.com</dd>
+                <dt id="phone">phone</dt>
+                <dd class="content">555-664-5321</dd>
+                <dt id="web">website</dt>
+                <dd class="content">domain.com</dd>
+                <dt id="email">Email</dt>
+                <dd class="content">info@domain.com</dd>
             </dl>
-        </div>
-        <div class="col-md-4">
             <img src="http://i.imgur.com/5YUkCVg.jpg" class="img-rounded" alt="Rounded Image" id="profile" />
+            
         </div>
     </div>
     <div class="col-md-12">

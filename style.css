@@ -1,7 +1,7 @@
-* {
+/* {
     border:1px solid black;
 } 
-
+*/
 body {
   background-image:url(http://theartmad.com/wp-content/uploads/Light-Grey-Gradient-Background-9.jpg);
   background-size:cover;
@@ -14,6 +14,9 @@ body {
     margin-top:20px;
     margin-right:10px;
     margin-bottom:20px;
+}
+.picture {
+    width:350px;
 }
 .about {
     margin-top:20px;
@@ -49,12 +52,22 @@ body {
 }
 .school-title {
     display:inline-block;
-    margin-left:-15px;
-      
+    margin-left:-15px;   
 }
 .contact {
-    margin-top:56px
+    display:inline-block;
+    margin-top:11%;
+    margin-left:165px
 }
-
+dt,dd {
+    padding:7px;
+}
+.content {
+    text-align:right;
+    width:200px;
+}
+#phone,#web,#email {
+    text-align:left;
+}
     
    
