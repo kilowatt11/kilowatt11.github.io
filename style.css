@@ -1,15 +1,57 @@
 /* {
     border:1px solid black;
-} */
+} 
+*/
 body {
   background-image:url(http://theartmad.com/wp-content/uploads/Light-Grey-Gradient-Background-9.jpg);
   background-size:cover;
   background-repeat: no-repeat; 
 }
 #profile {
-    height:200px;
-    width:200px;
+    height:225px;
+    width:225px;
     float:right;
-    margin-top:35px;
+    margin-top:20px;
     margin-right:10px;
+    margin-bottom:20px;
+}
+.about {
+    margin-top:20px;
+}
+.work-title {
+    margin-top:23px;
+}
+.date1 {
+    margin-top:33px;
+    display:inline-block;
+    margin-left:95px;  
+}
+.date2 {
+    margin-top:33px;
+    display:inline-block;
+    margin-left:95px; 
+}
+.date3 {
+    margin-top:28px;
+    display:inline-block;
+    margin-left:110px; 
+}
+.date4 {
+    margin-top:33px;
+    display:inline-block;
+    margin-left:110px; 
+}
+.date5 {
+    margin-top:65px;
+    display:inline-block;
+    margin-left:110px;
+    
+}
+.school-title {
+    display:inline-block;
+    margin-left:-15px;
+      
+}
+.education {
+    
 }
