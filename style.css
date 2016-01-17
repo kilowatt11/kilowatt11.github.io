@@ -15,44 +15,88 @@ body {
     margin-right:10px;
     margin-bottom:20px;
 }
-.picture {
-    width:350px;
-}
+
 .about {
     margin-top:20px;
 }
 .work-title {
     margin-top:20px;
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    color:#646d84;
 }
 .date1 {
     margin-top:33px;
     display:inline-block;
-    margin-left:95px;  
+    margin-left:95px; 
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    color:#383c49;
+	 
 }
 .date2 {
     margin-top:33px;
     display:inline-block;
     margin-left:95px; 
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    color:#383c49;
+	
 }
 .date3 {
     margin-top:28px;
     display:inline-block;
     margin-left:110px; 
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    color:#383c49;
+	
 }
 .date4 {
     margin-top:33px;
     display:inline-block;
     margin-left:110px; 
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    color:#383c49;	
 }
 .date5 {
     margin-top:65px;
     display:inline-block;
     margin-left:110px;
-    
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    color:#383c49;
 }
 .school-title {
     display:inline-block;
-    margin-left:-15px;   
+    margin-left:-15px; 
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    color:#646d84;
+      
 }
 .contact {
     display:inline-block;
@@ -61,13 +105,72 @@ body {
 }
 dt,dd {
     padding:7px;
+    color:#646d84;
 }
 .content {
     text-align:right;
     width:200px;
+     font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 20px;
 }
 #phone,#web,#email {
     text-align:left;
+     font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
 }
-    
-   
+.title {
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    color:#383c49;
+}  
+.tasks {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    color:#646d84;
+}
+.info {
+font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    color:#646d84;
+}
+.title p {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+.sub {
+    color:#646d84;
+}
+/* not Sure I will stay with this font
+for the "developer" title. May stick
+with consistent font for all Titles and
+ther subs. */
+.about h5 {
+    font-family: Papyrus, fantasy;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+}
