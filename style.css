@@ -174,3 +174,9 @@ ther subs. */
 	font-style: normal;
 	font-variant: normal;
 }
+a {
+    color:#646d84;
+}
+a:link {
+    text-decoration: none;
+}

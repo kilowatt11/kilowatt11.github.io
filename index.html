@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <title>My Resume</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
     crossorigin="anonymous">
@@ -21,7 +21,7 @@
                 nisi.
             </p>
         </div>
-       <!--Had to make the top header two containers instead of 3 in order to manuver contact info. 
+        <!--Had to make the top header two containers instead of 3 in order to manuver contact info. 
        I placed contact and profile image in same Div to facilitate this.
        Also, in order to override bootstrap I assigned "id" to the dt tags
        otherwise txt-align:left; would not work.-->
@@ -30,15 +30,18 @@
                 <dt id="phone">phone</dt>
                 <dd class="content">555-664-5321</dd>
                 <dt id="web">website</dt>
-                <dd class="content">domain.com</dd>
+                <dd class="content">
+                    <a href="https://boisecodeworks.com/">domain.com</a></dd>
                 <dt id="email">Email</dt>
-                <dd class="content">info@domain.com</dd>
+                <dd class="content">
+                    <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+info@domain.com</a></dd>
             </dl>
             <img src="http://i.imgur.com/5YUkCVg.jpg" class="img-rounded" alt="Rounded Image" id="profile" />
-            
+
         </div>
     </div>
-   
+
     <div class="col-md-12">
         <div class="col-md-4">
             <h3 class="work-title">Work History</h3>
@@ -109,7 +112,7 @@
                     <h6 class="date4">Fall 2011</h6>
                     <h6 class="date5">2002-2005</h6>
                 </div>
-                
+
             </div>
 
         </div>
