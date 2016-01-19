@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>99 bottles of beer</title>
+    <script>
+        var age=prompt("what's your age");
+            if(age<13) {
+             console.log("You are allowed to drink,but we take no responsibility");
+        }
+            else {
+              console.log("Lets get to DRINKING!!");
+        }
+        var userAnswer=prompt("what is your preference? Micro-brew or....keystone?");
+            if(userAnswer === "keystone") {
+                console.log("That's disgusting...");
+            }
+            else {
+                console.log("This is the begining of a beautiful friendship");
+            }
+            
+        var drinks = 99;
+        while (drinks >= 0) {
+        console.log(drinks + " bottles of beer on the wall " + drinks + " bottles of beer");
+        console.log("take one down pass it around " + drinks + " bottles of beer on the wall");
+        drinks = drinks - 1;
+        }
+        
+        console.log("what do you mean we are out of beer?")
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
