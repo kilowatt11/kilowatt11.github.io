@@ -1,0 +1,173 @@
+body {
+  background: #333333 url(http://home.aubg.edu/students/ENY120/Archive/images1/page-bg.jpg);
+}
+
+#social-link1:hover {
+  background-color: #222222;
+  opacity: 1.1;
+}
+#social-link1:focus {
+    background-color: #222222;
+  opacity: 1.1;
+}
+
+#social-link2:hover {
+  background-color: #222222;
+  opacity: 1.1;
+}
+#social-link2:focus {
+      background-color: #222222;
+  opacity: 1.1;
+}
+
+#social-link3:hover {
+  background-color: #222222;
+  opacity: 1.1;
+}
+#social-link3:focus {
+      background-color: #222222;
+  opacity: 1.1;
+}
+#social-link4:hover {
+  background-color: #222222;
+  opacity: 1.1;
+}
+#social-link4:focus {
+      background-color: #222222;
+  opacity: 1.1;
+}
+
+a {
+  color: grey;
+}
+
+.container {
+  display: block;
+  width: 863px;
+  margin: auto;
+  margin-top: 80px;
+  background-color: rgba(34, 34, 34, 0.5);
+  color: grey;
+}
+
+.navbar {
+  background-color: #222222;
+  width: 864px;
+  height: 115px;
+  margin: auto;
+}
+
+.profile-pic {
+  display: block;
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-left: -15px;
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
+.jumbotron {
+  width: 864px;
+  margin: auto;
+}
+
+.about {
+  font-size: 75px;
+  padding-top: 30px;
+}
+
+.exp-title {
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.port-title {
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.contact-title {
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.facebook {
+  font-size: 40px;
+}
+
+.top-social li {
+  display: inline-block;
+}
+
+.linkedIn {
+  font-size: 40px;
+}
+
+.google {
+  font-size: 40px;
+}
+
+.git {
+  font-size: 40px;
+}
+
+.summary {
+  float: right;
+  padding-right: 0;
+  margin-left: 20px;
+}
+
+.summary p {
+  font-size: 12px;
+  padding-left: 40px;
+  padding-right: 0;
+}
+
+.summary p {
+  margin-left: -15px;
+}
+
+.summary h4 {
+  margin-left: 25px;
+  margin-bottom: 0;
+    margin-top: 33px;
+}
+
+.interest-title {
+  margin-left: 13px;
+  margin-top: 0;
+}
+
+.interestImg {
+  margin-left: 10px;
+}
+
+.image1 {
+  margin-bottom: 27px;
+}
+
+.top-social {
+  margin-top: 75px;
+  margin-left: 190px;
+}
+
+.bottom-social li {
+  display: inline-block;
+}
+
+.top-divider,
+.bottom-divider {
+  border-bottom: 6px solid;
+  margin-bottom: 20px;
+}
+
+.interest1 {
+  width: 90px;
+  height: 90px;
+  border-radius: 25%;
+}
+
+.interest2 {
+  width: 125px;
+}
